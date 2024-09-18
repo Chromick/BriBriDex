@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BriBri DEX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+</head>
+<body>
+    <h1>BriBri Dex</h1>
+    <h2>Escolha seu BriBrimon:</h2>
+    <div class="container">
+        <form id="pokemon-form">
+            <div class="label-input-container">
+                <label for="pokemon-input" class="brutalist-label">Nome ou número do Pokémon:</label>
+                <input type="text" id="pokemon-input" value="1" required>
+                <button type="submit" class="button-54">Buscar</button>
+            </div>
+        </form>
+        <div class="pokemon-info" id="pokemon-info"></div>
+        <div class="navigation-buttons">
+            <button id="prev-button" class="button-54">Anterior</button>
+            <button id="next-button" class="button-54">Próximo</button>
+        </div>
+    </div>
+</body>
+<script src="scripts.js"></script>
+</html>
